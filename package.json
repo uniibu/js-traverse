@@ -1,7 +1,10 @@
 {
-    "name" : "traverse",
+    "name" : "@unibtc/traverse",
     "version" : "0.6.6",
     "description" : "traverse and transform objects by visiting every node on a recursive walk",
+    "publishConfig" : {
+        "access": "public"
+    },
     "main" : "index.js",
     "directories" : {
         "example" : "example",
@@ -25,9 +28,9 @@
     },
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/substack/js-traverse.git"
+        "url" : "git://github.com/uniibu/js-traverse.git"
     },
-    "homepage" : "https://github.com/substack/js-traverse",
+    "homepage" : "https://github.com/uniibu/js-traverse",
     "keywords" : [
         "traverse",
         "walk",
